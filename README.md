@@ -24,6 +24,12 @@ Once ImageMagick has been successfully downloaded and the enviornment variable h
 
 ## Creating ASCII Art
 
+| Original Image | Default ASCII Art | Inverting White and Black | Blue to Orange Gradients |
+| ----- | ----- | ----- | ----- |
+| ![](https://user-images.githubusercontent.com/46146906/88861163-01f6c980-d1c3-11ea-981a-fa588532e730.png) | ![](https://user-images.githubusercontent.com/46146906/88860771-1b4b4600-d1c2-11ea-86ea-277e1bdf331e.png) | ![](https://user-images.githubusercontent.com/46146906/88860780-1e463680-d1c2-11ea-9eeb-5f0e1e6d206b.png) | ![](https://user-images.githubusercontent.com/46146906/88860785-20a89080-d1c2-11ea-8c4a-fa98b2931027.png) |
+
+The images provided above are some examples of the type of ASCII art you can create with this image application. Many ASCII art creators out there recreate the input image with a white background and black ASCII characters as seen in the Default ASCII Art example, but with this application you have a bit more customization. You can specify the background color as well as the starting and ending colors (from top to bottom) of the ASCII art. The application takes your starting color and creates a series of gradients that eventually blends into your ending color, as seen in the Blue to Orange Gradients example. 
+
 ## Converting between formats
 In order to use this part of the application, an installation of ImageMagick is required. See the section "Installing ImageMagick" for a quick and easy guide for how to do this.
 
