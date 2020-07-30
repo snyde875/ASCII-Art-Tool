@@ -55,6 +55,8 @@ This function of the application can create some pretty interesting and unique i
 
 Please note that the algorithm used to create these images is a brute-force algorithm that will take a while depending on how many colors you select, the size of your image, and your computer's processing speed. It's best to execute the process and then simply let it run until it's finished. 
 
+If you know how to speed up this process while providing consistent results, I'd love to know! 
+
 ## Purpose
 The purpose of this project was to gain experience in GUI programming while also providing a program that might be useful to some people. A project in one of my computer science classes relied on ppm P3 images as input, and at the time, I had a lot of trouble finding a way to convert jpg and png images to this style of image formatting. Consequently, I wanted to provide people with a simple application that could allow them to convert to this file format with ease. 
 
