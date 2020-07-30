@@ -59,7 +59,7 @@ This function of the application can create some pretty interesting and unique i
 
 | Original | Averaged to 6 Colors |
 | ----- | ----- | 
-| ![](https://user-images.githubusercontent.com/46146906/88977603-d7b91080-d283-11ea-8fae-a5ed119b5930.jpg) | ![](
+| ![](https://user-images.githubusercontent.com/46146906/88977603-d7b91080-d283-11ea-8fae-a5ed119b5930.jpg) | ![](https://user-images.githubusercontent.com/46146906/88977611-da1b6a80-d283-11ea-8d34-85997aaf34cc.png) |
 
 | Original | Averaged to 4 Colors | Averaged to 10 Colors |
 | ----- | ----- | ----- |
