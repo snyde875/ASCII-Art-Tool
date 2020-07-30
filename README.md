@@ -2,9 +2,9 @@
 A basic application programmed as a personal project that'll currently allow you to do 3 things
 * Create ASCII Art (Examples given below)
 * Convert between image file types (Supported formats given below)
-* Average the colors of an image to create a new image (Examples given below)
+* Average the colors of an image to create a new image (Examples given below, known as "Group Colors" on the application)
 
-As of now, these are the only functions the application is capable of executing. The brighten, blur detection, and warp colors currently do nothing when clicked.
+As of now, these are the only functions the application is capable of executing. The brighten, blur detection, and warp colors currently do nothing when clicked. 
 
 ## Setting Up
 In order to use the application, all you have to do is download the latest release over [here.](www.google.com) 
