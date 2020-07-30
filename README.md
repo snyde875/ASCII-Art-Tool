@@ -45,6 +45,13 @@ I've given users the option to convert images to a ppm ASCII format because most
 
 
 ## Averaging colors of an image
+This function of the application can create some pretty interesting and unique images. Essentially, the user chooses a number between 2 and 10 (inclusive), and the application will recreate that image with only the number of colors that they chose. So if the number you picked was six, then you image is recreated with only six colors. The colors chosen, however, are not random. The application utilizes an algorithm that first selects six random colors (had you chosen six as your number) and then determines which color is closest to the six random colors for every color in your image, placing them in one of six different bins. Afterwards, all the colors in the bins are averaged to create six new colors, and the process repeats until the six new colors are the same as the previous six. Essentially, the application takes your image and averages its colors to a number that you specify. Some examples are given below.
+
+| Original | Averaged to 5 Colors |
+| ----- | ----- |
+| ![](https://user-images.githubusercontent.com/46146906/88862553-30c26f00-d1c6-11ea-9169-f498f61bde44.jpg) | ![](https://user-images.githubusercontent.com/46146906/88862552-2e601500-d1c6-11ea-855c-1db38e28adf8.png) |
+
+Please note that the algorithm used to create these images is a brute-force algorithm that will take a while depending on how many colors you select, the size of your image, and your computer's processing speed. It's best to execute the process and then simply let it run until it's finished. 
 
 ## Built With
 * [Python 3](https://www.python.org/downloads/) - The primary programming language used
