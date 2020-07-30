@@ -1,5 +1,5 @@
 # Image Art Creator
-A basic application programmed as a personal project that'll currently allow you to do 3 things
+A basic, Python 3-based application that'll currently allow you to do 3 things
 * Create ASCII Art (Examples given below)
 * Convert between image file types (Supported formats given below)
 * Average the colors of an image to create a new image (Examples given below, known as "Group Colors" on the application)
