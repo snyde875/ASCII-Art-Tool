@@ -53,6 +53,14 @@ This function of the application can create some pretty interesting and unique i
 | ----- | ----- |
 | ![](https://user-images.githubusercontent.com/46146906/88862553-30c26f00-d1c6-11ea-9169-f498f61bde44.jpg) | ![](https://user-images.githubusercontent.com/46146906/88862552-2e601500-d1c6-11ea-855c-1db38e28adf8.png) |
 
+| Original | Averaged to 3 Colors |
+| ----- | ----- |
+| ![](https://user-images.githubusercontent.com/46146906/88977129-eb17ac00-d282-11ea-9d8a-f865828877ea.jpg) | ![](https://user-images.githubusercontent.com/46146906/88977136-eeab3300-d282-11ea-8649-e96a5955ccb5.png) |
+
+| Original | Averaged to 4 Colors | Averaged to 10 Colors |
+| ----- | ----- | ----- |
+| ![](https://user-images.githubusercontent.com/46146906/88977193-113d4c00-d283-11ea-8789-7edacbc1d866.png) | ![](https://user-images.githubusercontent.com/46146906/88977151-f4a11400-d282-11ea-9bd9-70731f46c04d.png) | ![](https://user-images.githubusercontent.com/46146906/88977142-f1a62380-d282-11ea-883a-5af19012308b.png) |
+
 Please note that the algorithm used to create these images is a brute-force algorithm that will take a while depending on how many colors you select, the size of your image, and your computer's processing speed. It's best to execute the process and then simply let it run until it's finished. 
 
 If you know how to speed up this process while providing consistent results, I'd love to know! 
