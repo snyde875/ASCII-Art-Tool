@@ -7,7 +7,7 @@ A basic, Python 3-based application that'll currently allow you to do 3 things
 As of now, these are the only functions the application is capable of executing. The brighten, blur detection, and warp colors currently do nothing when clicked. 
 
 ## Getting Set Up
-In order to use the application, all you have to do is download the latest release over [here.](www.google.com) 
+In order to use the application, all you have to do is download the latest release over [here.](www.google.com) Once donwloaded, browse into the "dist" folder and locate the "image-art-creator.exe" executable. Create a shortcut of this executable to your desktop, task bar, or wherever you'd like to have it. Moving the executable out of the "dist" folder will NOT create a shortcut! The executable will not be able to launch if you do, so the best thing you can do for yourself is to create a shortcut!
 
 However, in order to use the convert file format option, you must download ImageMagick and set MAGICK_HOME enviornment variable to the path of ImageMagick. Note that you do not need to download ImageMagick in order to create ASCII art or use any other of the applications functionalities; only the convert file format option requires ImageMagick. An installation of ImageMagick is required because Wand, one of the dependencies of this application, uses ImageMagick as a dependency. Below is a step-by-step, easy-to-follow walkthrough of getting ImageMagick set up.
 
@@ -67,6 +67,7 @@ One of the reasons I started programming was because I found it interesting and 
 * [Colour](https://pypi.org/project/colour/) - Used to create smooth gradients between two colors
 * [PyQt5](https://pypi.org/project/PyQt5/) - The GUI framework
 * [Wand](https://docs.wand-py.org/en/0.6.2/) - Used to allow conversion to formats not supported by Pillow, such as PPM P3
+* [PyInstaller](https://pypi.org/project/PyInstaller/) - Used to package the Python 3 files into an executable 
 
 ## Acknowledgements 
 After packaging the python files through PyInstaller to create the executable for the application, I ran into an error stating "ImportError: unable to find Qt5Core.dll." After doing some research on how to solve this problem, I ran into a [stack overflow answer](https://stackoverflow.com/questions/56949297/how-to-fix-importerror-unable-to-find-qt5core-dll-on-path-after-pyinstaller-b) that solved my problem. Sofair R. provided a code snippet that I imported into my main python file and the import error was fixed. 
