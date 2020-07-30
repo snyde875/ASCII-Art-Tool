@@ -4,12 +4,12 @@ A basic, Python 3-based application that'll currently allow you to do 3 things
 * Convert between image file types (Supported formats given below)
 * Average the colors of an image to create a new image (Examples given below, known as "Group Colors" on the application)
 
-As of now, these are the only functions the application is capable of executing. The brighten, blur detection, and warp colors currently do nothing when clicked. 
+As of now, these are the only functions the application is capable of executing. The brighten, blur detection, and warp colors buttons currently do nothing when clicked. I may or may not add these on a later date.
 
 ## Getting Set Up
 In order to use the application, all you have to do is download the latest release over [here.](www.google.com) Once donwloaded, browse into the "dist" folder and locate the "image-art-creator.exe" executable. Create a shortcut of this executable to your desktop, task bar, or wherever you'd like to have it. Moving the executable out of the "dist" folder will NOT create a shortcut! The executable will not be able to launch if you do, so the best thing you can do for yourself is to create a shortcut!
 
-However, in order to use the convert file format option, you must download ImageMagick and set MAGICK_HOME enviornment variable to the path of ImageMagick. Note that you do not need to download ImageMagick in order to create ASCII art or use any other of the applications functionalities; only the convert file format option requires ImageMagick. An installation of ImageMagick is required because Wand, one of the dependencies of this application, uses ImageMagick as a dependency. Below is a step-by-step, easy-to-follow walkthrough of getting ImageMagick set up.
+In order to use the convert file format option, you must download ImageMagick and set MAGICK_HOME enviornment variable to the path of ImageMagick. Note that you do not need to download ImageMagick in order to create ASCII art or use any other of the applications functionalities; only the convert file format option requires ImageMagick. An installation of ImageMagick is required because Wand, one of the dependencies of this application, uses ImageMagick as a dependency. Below is a step-by-step, easy-to-follow walkthrough of getting ImageMagick set up.
 
 ### Installing ImageMagick
 First, you will need to download "ImageMagick-7.0.10-24-Q16-x86-dll.exe" from [here](http://www.imagemagick.org/download/binaries/) and then run the installation. When installing ImageMagick, make sure you install development headers and libraries for C and C++ as shown in the image below. If the version specified above is not available, pick a version that is at least version 7 (so ImageMagick-7.0.10 and up) and that has "Q16-x86" following it. Q8 and x64 will not work. 
