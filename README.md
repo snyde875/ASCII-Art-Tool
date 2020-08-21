@@ -4,7 +4,7 @@ A basic, Python 3-based application that'll currently allow you to do 3 things
 * Convert between image file types (Supported formats given below)
 * Average the colors of an image to create a new image (Examples given below, known as "Group Colors" on the application)
 
-As of now, these are the only functions the application is capable of executing. The brighten, blur detection, and warp colors buttons currently do nothing when clicked. I may or may not add these on a later date.
+As of now, these are the only functions the application is capable of executing. The brighten, blur detection, and warp colors buttons currently do nothing when clicked. I may or may not add these on a later date. To see the python files this application was built with, head over ![here.](https://github.com/snyde875/ASCII-Art-Tool-Code-Files)
 
 ## Getting Set Up
 In order to use the application, all you have to do is download the files above as a zip. Once donwloaded, browse into the "dist" folder and locate the "image-art-creator.exe" executable. Create a shortcut of this executable to your desktop, task bar, or wherever you'd like to have it. Moving the executable out of the "dist" folder will NOT create a shortcut! The executable will not be able to launch if you do, so the best thing you can do for yourself is to create a shortcut!
